@@ -1,6 +1,6 @@
 <h1 align="center">A simplified Jira clone built with React and Node</h1>
 
-<div align="center">Auto formatted with Prettier, tested with Cypress 🎗</div>
+<div align="center">Auto formatted with Prettier </div>
 
 <h3 align="center">
   <a href="https://jira.ivorreic.com/">Visit the live app</a> |
@@ -38,12 +38,6 @@ There are many showcase/example React projects out there but most of them are wa
 - `cd client && npm start` in another terminal tab
 - App should now be running on `http://localhost:8080/`
 
-## Running cypress end-to-end tests 🚥
-
-- Set up development environment
-- Create a database named `jira_test` and start the api with `cd api && npm run start:test`
-- `cd client && npm run test:cypress`
-
 ## What's missing?
 
 There are features missing from this showcase product which should exist in a real product:
@@ -59,10 +53,6 @@ We currently auto create an auth token and seed a project with issues and users 
 ### Accessibility ♿
 
 Not all components have properly defined [aria attributes](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA), visual focus indicators etc. Most early stage companies tend to ignore this aspect of their product but in many cases they shouldn't, especially once their userbase starts growing.
-
-### Unit/Integration tests 🧪
-
-Both Client and API are currently tested through [end-to-end Cypress tests](https://github.com/oldboyxx/jira_clone/tree/master/client/cypress/integration). That's good enough for a relatively simple application such as this, even if it was a real product. However, as the app grows in complexity, it might be wise to start writing additional unit/integration tests.
 
 ## Contributing
 
